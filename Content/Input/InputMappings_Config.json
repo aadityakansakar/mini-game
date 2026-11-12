@@ -1,0 +1,96 @@
+{
+  "context_name": "IMC_Default",
+  "actions": [
+    {
+      "name": "IA_Move",
+      "value_type": "Axis2D",
+      "key_bindings": [
+        {"key": "W", "modifiers": [{"type": "SwizzleAxis", "order": "YXZ"}]},
+        {"key": "S", "modifiers": [{"type": "SwizzleAxis", "order": "YXZ"}, {"type": "Negate"}]},
+        {"key": "D", "modifiers": []},
+        {"key": "A", "modifiers": [{"type": "Negate"}]},
+        {"key": "Gamepad_LeftStick", "modifiers": []}
+      ]
+    },
+    {
+      "name": "IA_Look",
+      "value_type": "Axis2D",
+      "key_bindings": [
+        {"key": "MouseXY", "modifiers": []},
+        {"key": "Gamepad_RightStick", "modifiers": []}
+      ]
+    },
+    {
+      "name": "IA_Fire",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "LeftMouseButton"},
+        {"key": "Gamepad_RightTrigger"}
+      ]
+    },
+    {
+      "name": "IA_Aim",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "RightMouseButton"},
+        {"key": "Gamepad_LeftTrigger"}
+      ]
+    },
+    {
+      "name": "IA_Jump",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "SpaceBar"},
+        {"key": "Gamepad_FaceButton_Bottom"}
+      ]
+    },
+    {
+      "name": "IA_Sprint",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "LeftShift"},
+        {"key": "Gamepad_LeftThumbstick"}
+      ]
+    },
+    {
+      "name": "IA_Crouch",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "C"},
+        {"key": "Gamepad_FaceButton_Right"}
+      ]
+    },
+    {
+      "name": "IA_Prone",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "Z"}
+      ]
+    },
+    {
+      "name": "IA_Reload",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "R"},
+        {"key": "Gamepad_FaceButton_Left"}
+      ]
+    },
+    {
+      "name": "IA_Interact",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "F"},
+        {"key": "Gamepad_FaceButton_Top"}
+      ]
+    },
+    {
+      "name": "IA_ToggleInventory",
+      "value_type": "Boolean",
+      "key_bindings": [
+        {"key": "Tab"},
+        {"key": "Gamepad_Special_Right"}
+      ]
+    }
+  ]
+}
+
